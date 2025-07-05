@@ -1,0 +1,43 @@
+# Ignore object files and assembly
+*.o
+*.obj
+*.s
+*.S
+
+# Ignore precompiled headers
+*.gch
+*.pch
+
+# Ignore executables (Linux/macOS)
+*.out
+*.elf
+a.out
+
+# Ignore executables (Windows)
+*.exe
+*.dll
+
+# Ignore core dumps
+core
+*.core
+
+# Ignore dependency and build files
+*.d
+*.dep
+*.map
+
+# Ignore build directories
+/build/
+/bin/
+/debug/
+/release/
+
+# Ignore temporary or backup files
+*~
+*.swp
+*.tmp
+*.bak
+
+# Ignore log files
+*.log
+
